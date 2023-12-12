@@ -1,5 +1,5 @@
 # Target_models
-***Some target models for Blind-Knowledge project.*** 
+***Some target models for Blind-Knowledge project.*** <br />
 ***数据说明*** 
 ```bash
 # 各文件夹下图片随机划分没有重叠
@@ -11,3 +11,6 @@
 |   └── cifar100-5way-twostage(5*50)
 ```
 ***模型使用说明*** 
+```bash
+model = torch.load("./checkpoints/ResNet18/ResNet18-cifar10-5way-92.4.pth")
+```
