@@ -1,6 +1,6 @@
 # Target_models
 ***Some target models for Blind-Knowledge project.*** <br />
-***数据说明*** 
+***数据使用说明*** 
 ```bash
 # 各文件夹下图片随机划分没有重叠
 # 请使用cifar100-5way-test下的5*100=500张图片进行替代模型精度/对抗样本测试
